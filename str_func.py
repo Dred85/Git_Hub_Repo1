@@ -5,6 +5,6 @@ def get_capital_letters(user_line: str) -> str:
 
 def get_title_letters(user_line: str) -> str:
     """Функция преобразования первых букв в заглавные"""
-    return user_line.title()
+    return user_line.title().strip()
 
 
